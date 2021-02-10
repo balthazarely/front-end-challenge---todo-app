@@ -26,7 +26,7 @@ const IconWrapper = styled.div`
   }
 `;
 export default function Header() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const switchTheme = () => {
     if (theme === "light") {
