@@ -24,6 +24,9 @@ const Button = styled.button`
   &:hover {
     color: var(--accent-color);
   }
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const ClearButton = styled.button`
@@ -40,6 +43,9 @@ const ClearButton = styled.button`
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
     background: var(--dark-accent-color-lighter);
     color: var(----text-color);
+  }
+  @media (max-width: 768px) {
+    font-size: 12px;
   }
 `;
 

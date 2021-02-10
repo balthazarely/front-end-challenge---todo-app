@@ -3,7 +3,7 @@ import { FaRegSun, FaMoon } from "react-icons/fa";
 import styled from "styled-components";
 
 const HeaderWrapper = styled.div`
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
 `;
@@ -26,7 +26,7 @@ const IconWrapper = styled.div`
   }
 `;
 export default function Header() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const switchTheme = () => {
     if (theme === "light") {

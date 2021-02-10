@@ -14,6 +14,9 @@ const TodoWrapper = styled.div`
   overflow: hidden;
   padding: 10px;
   margin-top: 100px;
+  @media (max-width: 768px) {
+    margin-top: 40px;
+  }
   h1 {
     color: var(--text-color);
   }
